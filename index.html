@@ -1,84 +1,1156 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head><script src="js/gsrs"></script>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="GraFest &#39;14 : Source Code for the Website of GraFest &#39;14 !" />
+    <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>GraFest</title>
 
-    <title>GraFest &#39;14</title>
-  </head>
+    <!-- Behavioral Meta Data -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <body>
+    <!-- Core Meta Data -->
+    <meta name="author" content="Ayush K. Singh">
+    <meta name="description" content="Grafest '14">
+    <meta name="keywords" content="grafest,geu,ayush,singh">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/iblong2iyush">View on GitHub</a>
+    <!-- Open Graph Meta Data -->
+    <meta property="og:description" content="New Crazy Graphic Era Annual Festival Site!">
+    <meta property="og:image" content="images/favicon.png">
+    <meta property="og:site_name" content="Grafest">
+    <meta property="og:title" content="Grafest">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.grafest.in">
 
-          <h1 id="project_title">GraFest &#39;14</h1>
-          <h2 id="project_tagline">Source Code for the Website of GraFest &#39;14 !</h2>
+    <!-- Twitter Card Meta Data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="http://www.grafest.in">
+    <meta name="twitter:creator" content="Ayush K. Singh">
+    <meta name="twitter:title" content="Grafest">
+    <meta name="twitter:description" content="New Crazy Graphic Era Annual Festival Site!">
+    <meta name="twitter:image" content="images/favicon.png">
 
-        </header>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+
+    <!-- Apple Startup Images -->
+    <link rel="apple-touch-startup-image" href="apple-touch-startup-image-320x460.png" media="(device-width: 320px)">
+    <link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="apple-touch-startup-image-1536x2008.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="apple-touch-startup-image-2048x1496.png" media="(device-width: 1536px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)">
+
+</head>
+<body>
+
+<div id="container" class="wrapper">
+    <!--<p style="float: left;top: 5%;left: 1%"><img src="css/images/GEU-logo-op.png" width="50%"><span style="color: #ffffff"></span></p>-->
+    <ul id="scene" class="scene unselectable"
+        data-friction-x="0.1"
+        data-friction-y="0.1"
+        data-scalar-x="25"
+        data-scalar-y="15">
+        <li class="layer" data-depth="0.00"></li>
+        <li class="layer" data-depth="0.10"><div class="background"></div></li>
+        <li class="layer" data-depth="0.10"><div class="light orange b phase-4"></div></li>
+        <li class="layer" data-depth="0.10"><div class="light purple c phase-5"></div></li>
+        <li class="layer" data-depth="0.10"><div class="light orange d phase-3"></div></li>
+        <li class="layer" data-depth="0.15">
+            <ul class="rope depth-10">
+                <li><img src="css/images/rope.png" alt="Rope"></li>
+                <li class="hanger position-2">
+                    <div class="board cloud-2 swing-1"></div>
+                </li>
+                <li class="hanger position-4">
+                    <div class="board cloud-1 swing-3"></div>
+                </li>
+                <li class="hanger position-8">
+                    <div class="board birds swing-5"></div>
+                </li>
+            </ul>
+        </li>
+		<li class="layer" data-depth="0.15"><h1 class="title" id="title">Gra<em>Fest</em>&nbsp;'<em>14</em></h1></li>
+        <li class="layer" data-depth="0.30">
+            <ul class="rope depth-30">
+                <li><img src="css/images/rope.png" alt="Rope"></li>
+                <li class="hanger position-1">
+                    <div class="board cloud-1 swing-3"></div>
+                </li>
+                <li class="hanger position-5">
+                    <div class="board cloud-4 swing-1"></div>
+                </li>
+            </ul>
+        </li>
+        <li class="layer" data-depth="0.30"><div class="wave paint depth-30"></div></li>
+        <li class="layer" data-depth="0.40"><div class="wave plain depth-40"></div></li>
+        <li class="layer" data-depth="0.50"><div class="wave paint depth-50"></div></li>
+        <li class="layer" data-depth="0.60"><div class="lighthouse depth-60"></div></li>
+        <li class="layer" data-depth="0.60">
+            <ul class="rope depth-60">
+                <li><img src="css/images/rope.png" alt="Rope"></li>
+                <li class="hanger position-3">
+                    <div class="board birds swing-5"></div>
+                </li>
+                <li class="hanger position-6">
+                    <div class="board cloud-2 swing-2"></div>
+                </li>
+                <li class="hanger position-8">
+                    <div class="board cloud-3 swing-4"></div>
+                </li>
+            </ul>
+        </li>
+        <li class="layer" data-depth="0.60"><div class="wave plain depth-60"></div></li>
+        <li class="layer" data-depth="0.80"><div class="wave plain depth-80"></div></li>
+        <li class="layer" data-depth="1.00"><div class="wave paint depth-100"></div></li>
+    </ul>
+    <section id="about" class="wrapper about hide accelerate">
+        <div class="cell accelerate">
+            <div class="cables center accelerate">
+                <div class="panel accelerate">
+                    <header>
+                        <h1 style="font-family: kingthings_gothiqueregular">Gra<em>Fest</em>&nbsp;<em>'</em>14</h1>
+                    </header>
+                    <p>The Annual Graphic Era University Festival is a 3-day Gala which redefines the fun element for the college students every time it is held. And so the term <em>GraFest</em> covers all the Cultural, Social & Managerial events touching Technical events too. GraFest 2014, a National Level Fiesta open for college students nationwide is a huge exposure to the versatile range of interests that the college students manifest nowadays. Daytime is full of Brainstorming & Entertaining events while the Evenings are mesmerized by the awesome celebrity performances. And this time, its going to <em>Breakout the Ordinary</em> raising the bar for all other fests.</p>
+                    <p>Courtesy by<br><a href="http://www.facebook.com/iBlong2iYush" target="_blank" title="iblong2iyush@gmail.com, +91-8979111110">Ayush K. Singh</a>.</p>
+                    <ul class="links">
+                                <li><a class="download" href="https://github.com/iblong2iyush/frenskart/archive/master.zip">Register</a></li>
+                        <li><a class="github" target="_blank" href="https://github.com/iblong2iyush/frenskart">College</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button id="toggle" class="toggle i">
+        <div class="cross">
+            <div class="x"></div>
+            <div class="y"></div>
+        </div>
+    </button>
+    <div id="prompt" class="wrapper prompt hide accelerate">
+        <div class="cell accelerate">
+            <div class="panel center unselectable accelerate">
+                <button id="dismiss" class="dismiss">
+                    <div class="cross">
+                        <div class="x"></div>
+                        <div class="y"></div>
+                    </div>
+                </button>
+                <div class="tilt-scene">
+                    <img class="tilt" src="css/images/tilt.png">
+                </div>
+                <h2>Tilting is fun!</h2>
+                <p>For the best experience, check out this site on a mobile or tablet equipped with a gyroscope</p>
+                <p>(iPads are the coolest)</p>
+            </div>
+        </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <!-- Button trigger modal -->
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="
+      background-color: transparent;
+      border-color: transparent;
+      width: 1000px;
+      height: 100px;
+      margin-left: -1%;
+      margin-top: -80%;
+      text-align: center;
+      padding: 0 0;
+      line-height: 1.42;
+      ">
+      <i class="fa fa-play-circle-o fa-4x fa-blink"></i>
+    </button>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" style="font-size: 18px;;">
+            <div class="modal-content" style="background-image: url(css/images/panel_old.jpg);">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="height: 20px;width: 20px">&times;</button>
+                    <ul class="nav nav-pills nav-justified">
+                    <li class="active"><a href="#cultural" data-toggle="tab">Cultural</a></li>
+                    <li><a href="#technical" data-toggle="tab">Technical</a></li>
+                    <li><a href="#inkling" data-toggle="tab">Inkling</a></li>
+                    <li><a href="#exhibition" data-toggle="tab">Exhibition</a></li>
+                    <li><a href="#xuberence" data-toggle="tab">Xuberence</a></li>
+                    <li><a href="#forms" data-toggle="tab">Register</a></li>
+                    </ul>
+                </div>
+                <div class="modal-body">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="cultural" style="color: #4f4f4f">
+                            <div class="panel0-group" id="accordion">
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                <h2>Solo Singing</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                        <div class="panel0-body">
+                                            <h3>Raaga : Classical music form</h3>
+                                            <p>Best platform to show passion for singing. Make your lyrics dance on their own rhythm, make your voice touch the heart of the listeners and show that you are the best…you think you have that spark then register and let others know too.</p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                            <li>No tracks are allowed.</li>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+                                            <li>Maximum of 2 Accompanist will be entertained in the competition.</li>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+                                            <li>Time limit: 3 to 5 Minutes.
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+                                            <li>Exceeding time limit will result in negative marking and may lead to disqualification.</li>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+                                            <li>All scores resulting in tie will be broken by judges.</li>
+                                            </ol>
+                                            <br>
+                                            <strong>Judging Criteria:</strong>
+                                            <ul style="display: inline">
+                                                <li style="display: inline">Vocals
+                                                <li style="display: inline">Pitch
+                                                <li style="display: inline">Rhythm
+                                                <li style="display: inline">Overall on-stage performance
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                <h2>Nukkad Natak (Street Play)</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>Nukkad Natak (Street play) is an activity which has been used in India for a long time to convey view or opinion on social issues or to deliver any information to the people. The impact is not created silently it has to be loud enough so that it can be heard and felt.
+                                                So this time Graphic Era University presents Nukkad Natak, as an event to present your ideas and to leave an impact.
+                                            </p>
+                                            <strong>Rules and Regulations</strong>
+                                                <ol style="list-style: number;text-align: left;padding: 0 20px">
+                                                    <li>This is a group event. Each team shall consist of maximum of 15 members.</li>
+                                                    <li>The language of the performance should be HINDI or ENGLISH only.</li>
+                                                    <li>The time limit shall be maximum 20 minutes. Exceeding time limit will lead to strict marks deduction.</li>
+                                                    <li>Teams are expected to perform at an open air venue, preferably in a circular arena with audience on all sides. Audience response will have substantial points in scoring criteria.</li>
+                                                    <li>Use of fire/water/smoke machines on stage/in close proximity of stage is not permitted.</li>
+                                                    <li>
+                                                        <strong>Judging Criteria:</strong>
+                                                        <ul style="display: inline;list-style-type: circle;">
+                                                            <li>Script-30%
+                                                            <li>Acting/Expression-25%
+                                                            <li>Direction-15%
+                                                            <li>Audience Response-20%
+                                                            <li>Miscellaneous Effect-10%
+                                                        </ul>
+                                                    </li>
+                                                    <li>The participating teams are requested to ensure that their presentation is in keeping with the dignity of the fest.</li>
+                                                    <li>The judge’s decision will be final and binding.</li>
+                                                    <li>The organizing team reserves the right to change or modify any of the rules.</li>
+                                                </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                <h2>“PROMENADE” express it out</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <ul class="nav nav-pills nav-justified" id="xTab">
+                                                <li class="active"><a href="#r">RYTHMOS - Group Dance</a></li>
+                                                <li><a href="#dd">D-DREAMER - Solo Dance</a></li>
+                                                <li><a href="#ft">FOOT IT - Duet Dance</a></li>
+                                                <li><a href="#rb">RUMBLING BEATS - Beat Boxing</a></li>
+                                            </ul>
+                                            <strong>General Rules for All Dance Competitions</strong>
+                                            <ol style="list-style: number;text-align: left;padding: 0 20px">
+                                                <li>Teams are allowed to carry sound equipments in GRAFEST but management is not responsible in case there is any damage or loss.</li>
+                                                <li>There is no guarantee as to the day or time at which a section will be presented, final scheduled will be confirmed 3 days before the fest.</li>
+                                                <li>All participants must be registered college students.</li>
+                                                <li>No fire elements to be used during a performance if used may lead to disqualification.</li>
+                                                <li>Folk is not a different category and would be judged under given categories all dance styles are welcomed!</li>
+                                                <li>Competition could be 1 to 3 days. Competitor must compete on schedule day and time.</li>
+                                            </ol>
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="r">
+                                                    <p>What can you do with a bunch of people, it's the coordination that is spell-binding. It's the team that performs. A group of bodies with one soul!</p>
+                                                    <strong>Rules and Regulations</strong>
+                                                    <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                        <li>Team Size: Minimum 5 and Maximum 20 members are allowed in a team, with at least 5 members on stage at any point during the performance.</li>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+                                                        <li>Folk dance is allowed but there is no different category, judging criteria remain the same.</li>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+                                                        <li>Teams may be asked to submit a link of a video of their dance skills. Time limit: 3 to 5 Minutes.</li>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+                                                        <li>Final performance will be of 6-10 minutes long (Music piece duration).</li>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+                                                        <li>2 copies of the final track should be submitted 2 hours prior to the performance in mp3 or WMA format on a PENDRIVE (PD) or CD with team and college name written on it, mobile phones etc. are unacceptable and any other format could result in disqualification.</li>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+                                                        <li>Exceeding time limit will result in negative marking and even disqualification.</li>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+                                                        <li>Props are allowed, no negative marks but may add up some to your total score. The judges or the coordinators of the event shall not be responsible for the workability or availability of the props.</li>
+
+                                                        <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                        <li>All scores resulting in ties will be broken by judges.</li>
+                                                    </ol>
+                                                    <strong>Judging Criteria:</strong>
+                                                    <ul>
+                                                        <li>Choreography
+                                                        <li>Synchronization
+                                                        <li>Floor Craft
+                                                        <li>Use of Props
+                                                        <li>Theme
+                                                        <li>Costumes
+                                                        <li>Audience Reaction
+                                                        <li>Overall on-stage performance
+                                                    </ul>
+                                                </div>
+                                                <div class="tab-pane" id="dd">
+                                                    <p>You believe in your dancing style and have to express all that is inside you.Well it’s all about you!</p>
+                                                    <strong>Rules and Regulations</strong>
+                                                    <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                        <li>Folk dance is allowed but there is no different category, judging criteria remain the same.</li>
+
+                                                        <li>Participant may be asked to submit a link of a video of their dance skills. Time limit: 1 .
+
+                                                        <li>Final performance will be of 4-6 minutes long (Music piece duration).</li>
+
+                                                        <li>2 copies of the final track should be submitted 2 hours prior to the performance in mp3 or WMA format on a PENDRIVE (PD) or CD with team and college name written on it, mobile phones etc. are unacceptable and any other format could result in disqualification.</li>
+
+                                                        <li>Exceeding time limit will result in negative marking and even disqualification.</li>
+
+                                                        <li>Props are allowed to suit yourself .The judges or the coordinators of the event shall not be held responsible for the workability or availability of the props.</li>
+
+                                                        <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                        <li>All scores resulting in ties will be broken by judges.</li>
+                                                    </ol>
+                                                    <strong>Judging Criteria:</strong>
+                                                    <ul>
+                                                        <li>Choreography
+                                                        <li>Variability
+                                                        <li>Floor Craft
+                                                        <li>Expressions
+                                                        <li>Rhythm
+                                                        <li>Spontaneity
+                                                        <li>Audience Reaction
+                                                    </ul>
+                                                </div>
+                                                <div class="tab-pane" id="ft">
+                                                    <p>Beautifully coordinated, the duet dance competition is a treat to the spectators with twin like illusion.</p>
+                                                    <strong>Rules and Regulations</strong>
+                                                    <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                        <li>Any two individuals can pair up (of same gender) to participate in this event.</li>
+
+                                                        <li>Folk dance is allowed but there is no different category, judging criteria remain the same.</li>
+
+                                                        <li>Teams may be asked to submit a link of a video of their dance skills. Time limit: 2 Minutes.</li>
+
+                                                        <li>Final performance will be of 4-6 minutes long (Music piece duration).</li>
+
+                                                        <li>2 copies of the final track should be submitted 2 hours prior to the performance in mp3 or WMA format on a PENDRIVE (PD) or CD with team and college name written on it, mobile phones etc. are unacceptable and any other format could result in disqualification.</li>
+
+                                                        <li>Exceeding time limit will result in negative marking and even disqualification.</li>
+
+                                                        <li>Props are allowed, no negative marks but may add up some to your total score. The judges or the coordinators of the event shall not be responsible for the workability or availability of the props.</li>
+
+                                                        <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                        <li>All scores resulting in ties will be broken by judges.</li>
+                                                    </ol>
+                                                    <strong>Judging Criteria:</strong>
+                                                    <ul>
+                                                        <li>Choreography
+                                                        <li>Synchronization
+                                                        <li>Floor Craft
+                                                        <li>Expressions
+                                                        <li>Rhythm
+                                                        <li>Spontaneity
+                                                        <li>Audience Reaction
+                                                    </ul>
+                                                </div>
+                                                <div class="tab-pane" id="rb">
+                                                    <p>What? You don’t need a <em>DJ</em> to dance because you make your own beat.
+                                                        Habitual of making sounds, lets amaze people this time in GRAFEST 14’.
+                                                    </p>
+                                                    <strong>Rules and Regulations</strong>
+                                                    <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                        <li>The competition is open to beat boxers.</li>
+
+                                                        <li>No instruments are permitted only sounds made by using human anatomy.</li>
+
+                                                        <li>Each beat boxer will be given 2 minutes to showcase his/her talent.</li>
+
+                                                        <li>Time may be extended for 1 minute.</li>
+
+                                                        <li>Microphones will be provided and coordinators take the responsibility.</li>
+
+                                                        <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                        <li>All scores resulting in ties will be broken by judges.</li>
+                                                    </ol>
+                                                    <strong>Judging Criteria:</strong>
+                                                    <ul>
+                                                        <li>Musicality
+                                                        <li>Technique
+                                                        <li>Audience Reaction
+                                                    </ul>
+                                                </div>
+                                            </div>                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseryth">
+                                                <h3>RYTHMOS - Group Dance</h3>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseryth" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>What can you do with a bunch of people, it's the coordination that is spell-binding. It's the team that performs. A group of bodies with one soul!</p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>Team Size: Minimum 5 and Maximum 20 members are allowed in a team, with at least 5 members on stage at any point during the performance.</li>
+
+                                                <li>Folk dance is allowed but there is no different category, judging criteria remain the same.</li>
+
+                                                <li>Teams may be asked to submit a link of a video of their dance skills. Time limit: 3 to 5 Minutes.</li>
+
+                                                <li>Final performance will be of 6-10 minutes long (Music piece duration).</li>
+
+                                                <li>2 copies of the final track should be submitted 2 hours prior to the performance in mp3 or WMA format on a PENDRIVE (PD) or CD with team and college name written on it, mobile phones etc. are unacceptable and any other format could result in disqualification.</li>
+
+                                                <li>Exceeding time limit will result in negative marking and even disqualification.</li>
+
+                                                <li>Props are allowed, no negative marks but may add up some to your total score. The judges or the coordinators of the event shall not be responsible for the workability or availability of the props.</li>
+
+                                                <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                <li>All scores resulting in ties will be broken by judges.</li>
+                                            </ol>
+                                            <strong>Judging Criteria:</strong>
+                                            <ul>
+                                                <li>Choreography
+                                                <li>Synchronization
+                                                <li>Floor Craft
+                                                <li>Use of Props
+                                                <li>Theme
+                                                <li>Costumes
+                                                <li>Audience Reaction
+                                                <li>Overall on-stage performance
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapsedd">
+                                                <h3>D-DREAMER - Solo Dance</h3>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapsedd" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>You believe in your dancing style and have to express all that is inside you.Well it’s all about you!</p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>Folk dance is allowed but there is no different category, judging criteria remain the same.</li>
+
+                                                <li>Participant may be asked to submit a link of a video of their dance skills. Time limit: 1 Minute </li>
+
+                                                <li>Final performance will be of 4-6 minutes long (Music piece duration).</li>
+
+                                                <li>2 copies of the final track should be submitted 2 hours prior to the performance in mp3 or WMA format on a PENDRIVE (PD) or CD with team and college name written on it, mobile phones etc. are unacceptable and any other format could result in disqualification.</li>
+
+                                                <li>Exceeding time limit will result in negative marking and even disqualification.</li>
+
+                                                <li>Props are allowed to suit yourself .The judges or the coordinators of the event shall not be held responsible for the workability or availability of the props.</li>
+
+                                                <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                <li>All scores resulting in ties will be broken by judges.</li>
+                                            </ol>
+                                            <strong>Judging Criteria:</strong>
+                                            <ul>
+                                                <li>Choreography
+                                                <li>Variability
+                                                <li>Floor Craft
+                                                <li>Expressions
+                                                <li>Rhythm
+                                                <li>Spontaneity
+                                                <li>Audience Reaction
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseft">
+                                                <h3>FOOT IT - Duet Dancee</h3>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseft" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>Beautifully coordinated, the duet dance competition is a treat to the spectators with twin like illusion.</p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>Any two individuals can pair up (of same gender) to participate in this event.</li>
+
+                                                <li>Folk dance is allowed but there is no different category, judging criteria remain the same.</li>
+
+                                                <li>Teams may be asked to submit a link of a video of their dance skills. Time limit: 2 Minutes.</li>
+
+                                                <li>Final performance will be of 4-6 minutes long (Music piece duration).</li>
+
+                                                <li>2 copies of the final track should be submitted 2 hours prior to the performance in mp3 or WMA format on a PENDRIVE (PD) or CD with team and college name written on it, mobile phones etc. are unacceptable and any other format could result in disqualification.</li>
+
+                                                <li>Exceeding time limit will result in negative marking and even disqualification.</li>
+
+                                                <li>Props are allowed, no negative marks but may add up some to your total score. The judges or the coordinators of the event shall not be responsible for the workability or availability of the props.</li>
+
+                                                <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                <li>All scores resulting in ties will be broken by judges.</li>
+                                            </ol>
+                                            <strong>Judging Criteria:</strong>
+                                            <ul>
+                                                <li>Choreography
+                                                <li>Synchronization
+                                                <li>Floor Craft
+                                                <li>Expressions
+                                                <li>Rhythm
+                                                <li>Spontaneity
+                                                <li>Audience Reaction
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapserb">
+                                                <h3>RUMBLING BEATS - Beat Boxing</h3>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapserb" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>What? You don’t need a <em>DJ</em> to dance because you make your own beat.
+                                                Habitual of making sounds, lets amaze people this time in GRAFEST 14’.
+                                            </p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>The competition is open to beat boxers.</li>
+
+                                                <li>No instruments are permitted only sounds made by using human anatomy.</li>
+
+                                                <li>Each beat boxer will be given 2 minutes to showcase his/her talent.</li>
+
+                                                <li>Time may be extended for 1 minute.</li>
+
+                                                <li>Microphones will be provided and coordinators take the responsibility.</li>
+
+                                                <li>Decision of the judges and the coordinators will be considered as final and will not be changed under any circumstances.
+
+                                                <li>All scores resulting in ties will be broken by judges.</li>
+                                            </ol>
+                                            <strong>Judging Criteria:</strong>
+                                            <ul>
+                                                <li>Musicality
+                                                <li>Technique
+                                                <li>Audience Reaction
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="technical" style="color: #4f4f4f">
+                            <div class="panel0-group" id="accordion">
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
+                                                <h2>ANATAX & DIGITAX</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne1" class="panel0-collapse collapse in">
+                                        <div class="panel0-body">
+                                            <strong>Welcome tech-geeks to the world of circuits!</strong>
+                                            <p>Come check your circuit designing skills and enhance your knowledge in the best way you can where Each team can have a maximum of three participants.</p>
+
+                                            ROUND  1 :- <strong>ANATAX ROUND</strong>
+                                            <br>
+                                            Test your knowledge in a cinch round of aptitude + electrical & electronics questions.
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>50 (25+25) questions will be asked on the basic knowledge of Electrical and Electronics including reasoning questions.</li>
+                                                <li>There are total 50 questions carrying 100 marks(each question is of 2 marks).</li>
+                                                <li>Questions not attempted will result in zero mark and wrong answer will result in negative marking.</li>
+                                                <li>One mark will be deducted for each wrong answer.</li>
+                                            </ul>
+
+                                            ROUND 2 :- <strong>DIGITAX ROUND</strong>
+                                            <br>
+                                            Drain your brains to build circuits as quick as you can. Let’s check how fast your fingers work on bread board.
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>In this round the candidates shortlisted from ROUND 1 would be provided with a circuit to , which must be designed within a particular span of time.</li>
+                                            </ul>
+                                            <br>
+                                            <strong>WINNING  CRITERIA</strong>
+                                            <br>
+                                            One who comes first in designing circuit will be the "Star Of Anatax & Digitax".
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>The team which takes minimum time to implement the circuit on the bread board will be declared as the winner of the event.</li>
+                                            </ul>
+                                            <p>For any queries contact :-
+                                                Lokesh  Yadav(Event Head)| Manish Gupta (Event Head)
+                                                <i class="fa fa-phone fa-fw"></i><em>+917351910893,+919758995007</em>
+                                                <i class="fa fa-envelope fa-fw"></i><em>lokeshdv.yadav@gmail.com</em>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2">
+                                                <h2>CODE CHASERS</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo2" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <strong>INNOVATE YOURSELF. BUILD A SMARTER PLANET</strong><br>
+                                            <span style="opacity: 0.8;color: #808080">Have a knack of knowing everything about everything?</p></span>
+                                            <p>CODE CHASER is an event which tests your very basics of C language, this is an on the spot event which gives you the opportunity to showcase your technical computing and coding skills. Just brush on your concept and get ready to unleash your talent in the field which is most appealing to the era we are living in.</p>
+                                                Round 1&nbsp;<em>Beating the Best</em>
+                                                Round 2&nbsp;<em>See your C/Java</em>
+                                            <br>
+                                            <strong>RULES</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>Round 1 is the Beating the best round based on the multiple choice question on Basic C language & aptitude. Time duration is of 30 minutes. 30 Questions will be there in the question paper.</li>
+                                                <li>Round 2 is a coding round which will be a round to judge your C/Java coding skills.</li>
+                                                <li>Each Team can have a minimum of 2 Participants & a maximum of 4 participants.</li>
+                                                <li>All The team members must have to carry their college ID cards as well as GRAFEST’14 Registration ID cards.</li>
+                                                <li>Judge’s Decision will be final & Binding to all.</li>
+                                                <li>The coordinators reserve the right to change the rules as they deem it. You will be informed accordingly.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree3">
+                                                <h2>EVOLUTION ‘ 14</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree3" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            DAY 1: <strong>QUIZ COMPETITION</strong>
+                                            There is a quiz competition based on aptitude, reasoning, 12th standard math’s, basic vocabulary.<br>
+                                            DAY 2: <strong>TREASURE HUNT (TECHNICAL)</strong>
+                                            There is a treasure hunt based on the technical clues and photography of the related machines and equipment.<br>
+                                            DAY 3: <strong>MODEL MAKING</strong>
+                                            There is a model making by students in team, required materials are given to the team. And the teams have to imagine or make strategy to make the model from provided materials.<br>
+                                            <br>
+                                            <strong>RULES AND REGULATION</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>Each participant should carry id cards of their respective colleges.</li>
+                                            </ul>
+                                            DAY 1:   <strong>QUIZ COMPETITION</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>45 Question will be asked for an aptitude test.</li>
+                                                <li>60 Minutes for aptitude test.</li>
+                                                <li>Two marks for each correct Answer.</li>
+                                                <li>No Negative Marking.</li>
+                                                <li>No use of electronics devices (mobiles, calculator).</li>
+                                                <li>40 members will be selected.</li>
+                                            </ul>
+                                            DAY 2: <strong>TREASURE HUNT (TECHNICAL)</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>Team cannot take the help from their friends.</li>
+                                                <li>No use of any electronics devices, or internet.</li>
+                                                <li>10 teams will be formed from the selected members.</li>
+                                                <li>First and second position teams will proceed to round 3.</li>
+                                            </ul>
+                                            DAY 3: <strong>MODEL MAKING</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>Things will be provided for model making.</li>
+                                                <li>No need to bring material from outside.</li>
+                                                <li>Now four teams having two members in each team take part in model making.</li>
+                                                <li>First, second, third position will be awarded.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                        <div class="panel0-heading">
+                                            <h4 class="panel0-title">
+                                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour4">
+                                                    <h2>JUNKYARD WARS</h2>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                    <div id="collapseFour4" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p><strong>Junkyard wars</strong> was first inspired by the TV series “APOLLO 13”, in which astronauts had to carry at in-mission repairs using only the available materials. Today the mission is different but the sense is same. Trash can be your treasure. Catch the lines; transform rudimentary concepts into working prototypes. It’s about limited resources, limited time & a problem to solve. So unleash that creative beast in you to build a palace from stones, to transform junk to wonders.</p>
+                                            <p>
+                                                <strong>GEU Junkyard wars</strong> is the best opportunity to showcase your engineering skills, where imagination and creativity are what will be at stake.<br>
+                                                Limited resources, limited time and a problem to solve. That’s what Junkyard Wars is about. All that you need to have is some <strong>jugaad from kabaad</strong>.<br>
+                                                Put on your hats of creativity, get ready to dirty your hands and let the <strong>Battle of Trash begin!!</strong>
+                                            </p>
+
+                                            <strong>RULES AND REGULATION</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>Each team can have maximum of 4 members. </li>
+                                                <li>Each team’s ideas have to be original. </li>
+                                                <li>All the team members must be present during the event. </li>
+                                                <li>Every team member must wear the i-cards and caps during the event. </li>
+                                                <li>“Junkyard WARS” organizing team reserves the right to modify any event and rules without prior information. </li>
+                                                <li>“Junkyard WARS” organizing team reserves the right to eliminate the participants in case of any misconduct. </li>
+                                                <li>In case of any discrepancy the judge’s decision will be final and all teams are abide by it.  </li>
+                                                <li>The teams are required to use only the material provided by us, any extra material will lead to disqualification.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                                <h4 class="panel0-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive5">
+                                                        <h2>ANDROIDA '14</h2>
+                                                    </a>
+                                                </h4>
+                                    </div>
+                                    <div id="collapseFive5" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <strong>CHKRAVYUH (Robo Race/LFR)</strong>
+                                            <p>
+                                               There is a strategy guys, we <em>the saviours</em> will silently attack their bunkers and plant explosives. So guys, the plan is to find a silent and quite way and send our bots to plant explosives.<br>
+                                               These bots will follow the way and plant explosives, the way is such that there is a <em>chakravyuh</em> to confuse the enemies not to find out the way.
+                                            </p>
+
+                                                <strong>GAME RULES AND BOT REGULATION</strong>
+                                                <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                    <li>All the participating teams will race on the tracks provided one by one on both race track manually & automatically by mechanical & LFR bots.</li>
+                                                    <li>There will be two different tracks for robo race and LFR with different bots to participate in the event separately.</li>
+                                                    <li>The bot specification for roborace is <em>#30cm*25cm*15 #weight max 5 kg</em></li>
+                                                    <li>Current used by battery may be the 9V battery or 12V, 1A at max.</li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix6">
+                                                <h2>ANDROID '14</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseSix6" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <strong>PRAYATNA (Robo-War)</strong>
+                                            <p>
+                                                The world is approaching towards Mass destruction. Their aliens have invaded our planet, to come, occupy and retain our planet as theirs. The people are determined to save the Earth from these ruthless species by all means available. This time, they have come up with devastating weaponaries upon Robots.
+                                                The war between aliens and Robots is about to happen. So gear up guys, We need your help. You need to save our planet.
+                                            </p>
+
+                                            <strong>GAME RULES AND BOT REGULATION</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>All the participating teams will be divided into 2 sections.Section-1 is the team Aliens whereas the section 2 teams are Saviors/Avengers.</li>
+                                                <li>Each team of Aliens will fight with their opponent team of Avengers which will be decided randomly by chit method.</li>
+                                                <li>The size of the bot for the event will be <em>15'*15'*15'</em>(inches).Maximum, consuming at max.<em>12V,5-6A</em> of current.</li>
+                                                <li>Each team will fight with all the other teams of the opponent section and the event will progress so on.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="inkling" style="color: #4f4f4f">
+                            <div class="panel0-group" id="accordion">
+                                <p>
+                                    <em>Ideas are with everyone, but very few get the opportunity to present them to the world.</em> Who knows what a young mind may have hidden deep inside it. The Objective of the event is to create a congenial atmosphere among the Students, Educationist, Research scholars and Engineers on a common platform, where they can share their views, ideas and experiences for the betterment of the education system and to earn a practical knowledge to withstand in today’s competitive world. This competition will also link the trend towards integration of technology with the education. This will benefit students to have an experience of presenting their ideas to the world. The experience gained while working on their projects and research work is valuable and when they share it along they groom others to be better technocrats. Here we aimed to weave together imagination and engineering to generate novel ideas and designs for advancement in science and technology.
+                                </p>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                                <h2>Poster Presentation</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel0-collapse collapse in">
+                                        <div class="panel0-body">
+                                            <p>
+                                                In this event students will present a poster based on their project or ongoing research work (Published or unpublished). Poster must be of the size prescribed below. A demo poster will be e-mailed to the participants. The best poster explained will be awarded.
+                                            </p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>Dimension should be within 4 feet (width) x 3 feet (height). Note that this is the maximum allowed dimension.</li>
+
+                                                <li>Poster can be digitally printed (preferred) or neatly printed on drawing paper.</li>
+
+                                                <li>Poster’s content should be clearly visible. </li>
+
+                                                <li>Only fixtures and holdings for the poster will be provided by the organizers. </li>
+
+                                                <li>Maximum 2 authors can participate in the event.</li>
+
+                                                <li>Participants are requested to mention their Course, Branch, Abstract title in the subject of the E- Mail and the names of authors in E-mail with their details
+                                                    Eg:- B.tech/EC/Title-Utilization of radar data to identify land cover features.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                                <h2>Paper Presentation</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>In this event those student who have published their research paper in different conference or journal will present their paper. And the best paper presented by the student will be awarded.</p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>Paper should be from renowned conferences and journals Eg. IEEE, Elsvier etc.</li>
+
+                                                <li>Maximum 2 authors can participate in the event.</li>
+
+                                                <li>10 Min to each participant will be given to give the presentation and 5 -10 min for Q & A session.</li>
+
+                                                <li>Participants are requested to mail the PDF of their paper along with mail and kindly mention their Course, Branch, and Title in the subject of the E- Mail and the names of authors in E-mail with their details Eg.:- B.tech/EC/Title-Utilization of radar data to identify land cover features.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel0 panel0-default">
+                                    <div class="panel0-heading">
+                                        <h4 class="panel0-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                                <h2>Live Projects Exhibition</h2>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel0-collapse collapse">
+                                        <div class="panel0-body">
+                                            <p>In this event Students will exhibit their working projects and the best project will be awarded.</p>
+                                            <strong>Rules and Regulations</strong>
+                                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                                <li>Students have to bring their project (Software or hardware based) along with them in working state.</li>
+
+                                                <li>Participants have to demonstrate the working or functioning of their project, failure to which participant will be disqualified.</li>
+
+                                                <li>Participants have to mention their requirement before the event Eg. DC supply,Internet.</li>
+
+                                                <li>Team should comprise of two members and at least one member should be around to explain the project during the entire exhibition. Failing this would lead to automatic disqualification.</li>
+                                            </ol>
+                                            <strong>Competition is open to the following branches :</strong>
+                                            <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                                <li>Computer science, Information Technology & Engg.
+                                                <li>Electronics and communication Engg.
+                                                <li>Electrical and Electronics Engg.
+                                                <li>Mechanical Engg.
+                                                <li>Civil and Environment Engg.
+                                                <li>Bio-Tech Engg.
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <strong>Important Dates</strong><br>
+                                <ul style="list-style-type: circle;text-align: left;padding: 0 20px">
+                                    <li>Submission of abstracts for poster and paper presentation(Via Mail): 19-April '14
+                                    <li>Acceptance notification(Via Mail): 21 April '14
+                                    <li>Registration Date: 26 April '14
+                                    <li>Event date: 26 April '14
+                                </ul>
+                                <strong>Registration Fee</strong><br>
+                                <ol style="list-style: number;text-align: left;padding: 0 20px">
+                                    <li>Free for GEU Dehradun, GEHU  Dehradun
+                                    <li>For NON-GEU and GEHU Dehradun students – Rs 500 (Including Grafest fees for 3 days, Participation in any other event, and lodging )
+                                </ol>
+                                <em>**</em>Lodging will be provided on first come first and prior notice.<br>
+                                <strong>Eligibility</strong> : All Courses and research scholars.<br>
+                                <p>Participants are requested to send the abstract of their project or current research work within 250 words to <i class="fa fa-fw fa-envelope"></i><em>paperandposter2014@gmail.com</em><i class="fa fa-fw fa-phone"></i><em>+919997490523</em>.</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="exhibition" style="color: #4f4f4f">
+                            <p>
+                                <em>Exhibition in most general sense is an organised presentation and display of a selection of items.</em><br>
+                                This year, we are bringing forward the same culture, the same legacy but with a different theme altogether.<br>
+                                This exhibition will be open to all creative and enthusiast students of GRAPHIC ERA UNIVERSITY and rest of the colleges to showcase their talent in a single platform.
+                                The exhibition will comprise of three things
+                            </p>
+                                <ol style="list-style:number;text-align: left;padding: 0 20px">
+                                    <li>PHOTOGRAPHY</li>
+                                    <li>PAINTING / SKETCHING</li>
+                                    <li>NUMISMATICS</li>
+                                </ol>
+
+                            <strong>THEME</strong>
+
+                            <p>We can bring forward the most creative and alluring theme to the show. This time the theme will be NIGHT. Yes, those beautiful crystal like stars, that little moon protruding up in that beautiful black sky will all be there plus your piece of art will add an extra ounce of beauty to all those stuff.
+                            That empty and quite nature of NIGHT will be highlighted.</p>
+
+                            <strong>PARTICIPANTS:</strong>
+
+                            <p>Any student willing to showcase his/her piece of art is welcome. The participants can submit their entries on below mentioned link/mail or contact the event head/coordinator.</p>
+
+
+                            <strong>RULES AND REGULATIONS:</strong>
+                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+
+                                <li>The entries must be original with its proper description, which includes the details of the cam( model, iso settings, shutter, aperture) with a watermark of the person present. Any entry found without the above mentioned description will be disqualified. Same will go for painting/sketching and numismatics.</li>
+
+                                <li>Winners will be selected on basis on judging done by our panel of judges/experts and their decision will be final.</li>
+
+                                <li>Winners will be awarded a cash prize of     INR for 1st,     INR for 2nd and   INR for 3rd.</li>
+
+                                <li>The age limit for participation is 22 years.</li>
+
+                                <li>The participants may register by submitting a nominal fees of   INR. The participants may be asked to get the hardcopy of their work which will be exhibited. The last date of submission is 25th April, 2014. No entry will be entertained after that.</li>
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="xuberence" style="color: #4f4f4f">
+                            <p>
+                                After the extravagant run of GRAFEST’13 we are all set to take the leap and rock the fashion world. It will be a competition of beauty, poise and attitude at GRAPHIC ERA UNIVERSITY when young and beautiful will capture the center stage!
+                            </p>
+                            <p>
+                                <em>Simplicity is the keynote of all true elegance.</em>
+                                Think fashion, and what comes to mind is the glamour, the attractive costumes, the alluring models on the ramp. Fashion, however, is much more than just that. What matters is one’s grace and ability to carry elegantly! Think you have it in you? Then come and be a part of Grafest’s much-awaited event – XUBERENCE-The Fashion Show!!
+                            </p>
+
+                            <strong style="float: left">DAY 1</strong><br>
+                            <ul style="list-style-type: circle;text-align: left;padding: 0 30px">
+                                <li>THEME ROUND - 3 teams will be made consisting 3-4 members in each team and will have to perform on different themes that will be provided to them.</li>
+                                <li>CREATIVE ROUND - props will be provided to each contestant and they have to represent themselves by using prop of their choice and be creative.</li>
+                            </ul>
+
+                            <strong style="float: left">DAY 2</strong><br>
+                            <ul style="list-style-type: circle;text-align: left;padding: 0 30px">
+                                <li>Campus Round - Casual Wear</li>
+                                <li>Corporate Round - Professional Look</li>
+                                <li>Ethnic Round - Elegant and Cultural</li>
+                                <li>Q&A Round</li>
+                            </ul>
+
+                            <strong>RULES AND REGULATIONS:</strong>
+                            <ol style="list-style:number;text-align: left;padding: 0 20px">
+
+                                <li>The event managers will provide the clothes but the participants must carry their own clothes, in case any problem occurs from the sponsors’ side.</li>
+
+                                <li>No alterations should be made in the costumes provided. Participants will be held responsible and penalized.</li>
+
+                                <li>Vulgarity is strongly prohibited. Any form of obscenity will lead to debarring the one from the contest.</li>
+
+                                <li>Participants should be present at the premises 2 hours before the event.</li>
+
+                                <li>A Green Room would be provided for the changing purpose.</li>
+
+                                <li>Everyone would be Judged on the basis of their performance in 7 major categories:
+                                    <ul style="list-style-type: circle;text-align: left;padding: 0 30px">
+                                        <li>Costumes</li>
+                                        <li>Theme</li>
+                                        <li>Innovation</li>
+                                        <li>Communication Skills</li>
+                                        <li>Personality</li>
+                                        <li>Walking Stance</li>
+                                        <li>Attitude</li>
+                                    </ul>
+                                </li>
+
+                                <li>Decision of the judges will be final and binding.</li>
+                            </ol>
+                            <p><i class="fa fa-fw fa-users"></i> Avantika Aneja <i class="fa fa-fw fa-phone"></i><em>9045856445</em> | Prateek Himanshu: <i class="fa fa-fw fa-phone"></i><em>9045297242</em> | Shruti: <i class="fa fa-fw fa-phone"></i><em>8954128422</em></p>
+                        </div>
+                        <div class="tab-pane fade" id="forms" style="color: #4f4f4f">
+                            <div style="display:none;" id="form-message"></div>
+                            <div id="form-container">
+                                <form class="form-horizontal" target="fake-target" onsubmit="this.action='https://docs.google.com/forms/d/1SDuILYROea8It_YtU5ApXVWqWMo4R_brxvd0UOYjb0I/formResponse';custommsg();" method="POST" target="_self">
+                                    <div class="control-group pull-left">
+                                        Name :&nbsp;
+                                        <input type="text" placeholder="Enter Valid Name" style="border-radius: 6px; padding: 2px 2px;margin: 5px 0;width: 250px" name="entry.1762415785" id="entry_1762415785"/>
+                                        <input type="number" placeholder="10 Digit Mobile No." style="border-radius: 6px; padding: 2px 2px;margin: 5px 0;width: 200px" name="entry.1912865733" id="entry_1912865733"/>
+                                    </div>
+                                    <div class="control-group pull-left">E-Mail ID :&nbsp;
+                                        <input type="email" placeholder="example@example.com" style="border-radius: 6px; padding: 2px 2px;margin: 5px 0;width: 300px" name="entry.2138952407" id="entry_2138952407"/>
+                                    </div>
+                                    <div class="control-group pull-left">College :&nbsp;
+                                        <input type="text" placeholder="Graphic Era University" style="border-radius: 6px; padding: 2px 2px;margin: 5px 0;width: 300px" name="entry.936161518" id="entry_936161518" />
+                                        <input type="number" placeholder="Roll No." style="border-radius: 6px; padding: 2px 2px;margin: 5px 0;width: 100px" name="entry.2051593686" id="entry_2051593686"/>
+                                        <br>
+                                    </div>
+                                    <div class="control-group pull-left">Events :&nbsp;
+                                        <select style="border-radius: 6px; padding: 2px 5px;margin: 5px 0;" name="entry.1958247754" id="entry_1958247754">
+                                            <option value="Xburence">XUBERENCE</option>
+                                            <option value="Cultural">ANDROIDA</option>
+                                            <option value="Technical">THE BLACKLIST TOURNAMENT</option>
+                                            <option value="Fine Arts">FINE ARTS</option>
+                                            <option value="Exhibition">EXHIBITION</option>
+                                        </select>
+                                    </div>
+                                    <div class="control-group pull-right">
+                                        <textarea type="text" cols="50" rows="3"  style="border-radius: 6px; padding: 2px 5px;margin: 5px 0;" placeholder="Write Here Anything and Everything else we need to know regarding your engagement in the corresponding Event!" name="entry.1683618817" id="entry_1683618817"></textarea>
+                                        <br>
+                                    </div>
+                                    <input type="hidden" name="draftResponse" value="[,,&quot;8567140127682187047&quot;]">
+                                    <input type="hidden" name="pageHistory" value="0">
+                                    <input type="hidden" name="fromEmail" value="false">
+                                    <div class="modal-footer" style="clear: both">
+                                        <div class="control-group">
+                                            <input type="reset" class="btn btn-danger" value="Reset" />
+                                            <input type="submit" class="btn btn-primary" value="Submit" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+							<iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>
+                            <p><i class="fa fa-fw fa-users"></i> Ziya Qureshi <i class="fa fa-fw fa-phone"></i><em>8979559188</em> | Aditya Kaul: <i class="fa fa-fw fa-phone"></i><em>9045329129</em> | Akhilesh Sharma: <i class="fa fa-fw fa-phone"></i><em>9410112310</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    <div id="fb-root"></div>
+    <footer>
+        <div class="fb-like" data-href="https://facebook.com/grafest" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+    </footer>
+</div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-49779313-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+<!-- Scripts -->
+<script src="js/libraries.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
+<script>
 
-  </body>
+    // Facebook stuff.
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=408532082617556";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    // jQuery Selections
+    var $html = $('html'),
+            $container = $('#container'),
+            $prompt = $('#prompt'),
+            $toggle = $('#toggle'),
+            $about = $('#about'),
+            $scene = $('#scene');
+
+    // Hide browser menu.
+    (function() {
+        setTimeout(function(){window.scrollTo(0,0);},0);
+    })();
+
+    // Setup FastClick.
+    FastClick.attach(document.body);
+
+    // Add touch functionality.
+    if (Hammer.HAS_TOUCHEVENTS) {
+        $container.hammer({drag_lock_to_axis: true});
+        _.tap($html, 'a,button,[data-tap]');
+    }
+
+    // Add touch or mouse class to html element.
+    $html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+    // Resize handler.
+    (resize = function() {
+        $scene[0].style.width = window.innerWidth + 'px';
+        $scene[0].style.height = window.innerHeight + 'px';
+        if (!$prompt.hasClass('hide')) {
+            if (window.innerWidth < 600) {
+                $toggle.addClass('hide');
+            } else {
+                $toggle.removeClass('hide');
+            }
+        }
+    })();
+
+    // Attach window listeners.
+    window.onresize = _.debounce(resize, 200);
+    window.onscroll = _.debounce(resize, 200);
+
+    function showDetails() {
+        $about.removeClass('hide');
+        $toggle.removeClass('i');
+    }
+
+    function hideDetails() {
+        $about.addClass('hide');
+        $toggle.addClass('i');
+    }
+
+    // Listen for toggle click event.
+    $toggle.on('click', function(event) {
+        $toggle.hasClass('i') ? showDetails() : hideDetails();
+    });
+
+    // Pretty simple huh?
+    $scene.parallax();
+
+    // Check for orientation support.
+    setTimeout(function() {
+        if ($scene.data('mode') === 'cursor') {
+            $prompt.removeClass('hide');
+            if (window.innerWidth < 600) $toggle.addClass('hide');
+            $prompt.on('click', function(event) {
+                $prompt.addClass('hide');
+                if (window.innerWidth < 600) {
+                    setTimeout(function() {
+                        $toggle.removeClass('hide');
+                    },1200);
+                }
+            });
+        }
+    },1000);
+	
+	function custommsg() {
+        document.getElementById("form-message").style.display = "";
+        document.getElementById("form-message").innerHTML = "<i class='fa fa-fw fa-thumbs-up fa-4x'></i>You have been Registered Successfully!";
+        document.getElementById("form-container").style.display = "none";
+    }
+</script>
+
+</body>
 </html>
